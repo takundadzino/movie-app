@@ -99,7 +99,6 @@ app.get("/api/cinemaworld/movies", (req, response) => {
   request.end();
 });
 
-// app.use(cors(corsOptions));
 //for getting 1 movie
 app.get("/api/filmworld/movie/:id", (req, response) => {
   // get movies
